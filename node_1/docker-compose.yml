@@ -15,6 +15,6 @@ services:
     ports:
       - "80:80"
     volumes: 
-      - "/etc/cluster/nginx.conf:/etc/nginx/nginx.conf"
+      - "./nginx.conf:/etc/nginx/nginx.conf"
     restart: on-failure:3
      
